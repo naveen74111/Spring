@@ -56,6 +56,7 @@ public class Location extends HttpServlet {
 		writer.print("</head>");
 		writer.print("</body>");
 		writer.print("<html>");
-
+                resp.setContentType("text/html");
+	}
 	}
 }
